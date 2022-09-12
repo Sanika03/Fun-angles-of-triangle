@@ -8,8 +8,13 @@ function calculateArea(base, height){
 }
 
 function displayArea(){
-    var area = calculateArea(Number(inputs[0].value), Number(inputs[1].value));
+    if(inputs[0].value=="" || inputs[1].value==""){
+        outputDiv.innerText = "Please enter both fields (in numbers)";
+    }
+    else{
+        var area = calculateArea(Number(inputs[0].value), Number(inputs[1].value));
     outputDiv.innerText = "The area of triangle is " + area + "cm²";
+    }
 }
 
 calculateAreaBtn.addEventListener("click", displayArea);
