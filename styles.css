@@ -48,7 +48,8 @@ header{
 }
 
 .question-container{
-    margin: 2.5%;
+    margin-top: 2.5%;
+    padding-top: 1%;
     font-size: larger;
 }
 
@@ -63,17 +64,19 @@ button{
     padding: 0.8%;
     font-size: medium;
     border-radius: 0.8rem;
-    margin: 2%;
+    margin: 1%;
+    width: 15%;
 }
 
 label{
     display: block;
     font-size: larger;
-    margin: 2%;
+    margin: 1%;
 }
 
 input{
     padding: 0.8%;
+    margin: 1%;
     border: 1.5px solid black;
     border-radius: 0.8rem;
 }
