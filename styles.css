@@ -95,3 +95,13 @@ button:hover{
 .nav-link-hover:hover{
     color: black;
 }
+
+@media only screen and (max-width:600px){
+    .nav-bar{
+        padding-bottom: 15%;
+    }
+
+    button{
+        width: auto;
+    }
+}
