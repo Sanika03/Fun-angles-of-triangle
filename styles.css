@@ -65,7 +65,8 @@ button{
     padding: 0.8%;
     font-size: medium;
     border-radius: 0.8rem;
-    margin: 1%;
+    margin: auto;
+    margin-left: 2%;
     width: auto;
 }
 
